@@ -301,6 +301,9 @@ background-color: var(--bg-color);
     color: var(--first-color);
   }
 
+  .home__description{
+    text-align: justify;
+  }
 
 .icon-box
 {
@@ -419,7 +422,7 @@ background-color: var(--bg-color);
   grid-template-columns: 402px 322px;
   -ms-grid-rows: 152px;
   grid-template-rows: 152px;
-  webkit-box-pack: center;
+  -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   padding-bottom: 2rem; 
