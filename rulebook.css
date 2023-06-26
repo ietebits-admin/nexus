@@ -72,7 +72,7 @@ ul {
 a 
 {
   text-decoration: none;
- }
+}
 
 img 
 {
@@ -822,9 +822,11 @@ background-color: var(--bg-color);
   }
 
 
-  .poster {
-    width: 400px;
-    height: 198px;
+  .poster img{
+    /* width: 500px;
+    height: 150px; */
+    height: 200px;
+    width: 300px;
     margin-left: -24px
   }
 
@@ -882,7 +884,7 @@ background-color: var(--bg-color);
 
 
   .social-menu{
-    margin-left: -330px;
+    margin-left: -340px;
     margin-top: -50px;
   }
 
