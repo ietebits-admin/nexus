@@ -745,7 +745,7 @@ p{
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
+  grid-template-columns: 100%;
   max-width: 1200px;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1000,7 +1000,7 @@ h1::before{
 
 
   .box__medium-title{
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: var(--white-color);
   }
 
