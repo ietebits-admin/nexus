@@ -1602,9 +1602,14 @@ h1::before{
     
     @media (max-width:420px){
       .event-container{
-        gap: 40px;
+        gap: 60px;
+      }
+
+      .car-2{
+        object-fit: cover;
       }
     }
+
 
 
 
@@ -1629,16 +1634,17 @@ h1::before{
       height: 600px;
       margin: 80px auto 0;
       /* background: #262626; */
+      
   }
   
   .work-container .work-box{
       position: relative;
-      width: calc(400px - 30px);
-      height: calc(300px - 30px
+      width: calc(600px - 30px);
+      height: calc(400px - 30px
       );
       background: #000;
       float: left;
-      margin: 15px;
+      margin: 30px 15px;
       box-sizing: border-box;
       overflow: hidden;
       box-shadow: 0 5px 10px rgba(0,0,0,0.8);
@@ -1697,7 +1703,8 @@ h1::before{
   
   .work-container .work-box .work-img-box img{
       width: 100%;
-      height: 270px;
+      height: 360px;
+
       transition: 0.5s;
       
   }
@@ -1776,6 +1783,11 @@ h1::before{
          width: calc(400px - 30px);
          height: calc(300px - 30px);
       }
+
+      .work-container .work-box .work-img-box img{
+        height:270px ;
+        width: 370px;
+      }
   }
   
   @media (max-width: 800px){
@@ -1789,6 +1801,11 @@ h1::before{
          width: calc(300px - 30px);
          height: calc(225px - 30px);
       }
+
+      .work-container .work-box .work-img-box img{
+        height: 195px;
+        width: 270px;
+      }
   }
   
   
@@ -1796,16 +1813,27 @@ h1::before{
   @media (max-width: 800px){
       .work-container{
           width: 100%;
-          height: auto;
+          height: 200px;
           margin: 80px auto 80px;
+          
+          
+          
       }
   
       .work-container .work-box{
          width: calc(300px - 30px);
          height: calc(225px - 30px);
-         margin: 15px auto;
+         margin: 50px auto;
          float: none;
       }
+
+
+      .work-container .work-box .work-img-box img{
+        height: 195px;
+        width: 270px;
+      }
+
+
   }
   
  
@@ -1818,7 +1846,7 @@ h1::before{
 
 
 .timeline{
-  margin-top: -120px;
+  margin-top: 15px;
 }
 
 
@@ -1906,7 +1934,8 @@ h1::before{
 	}
 	.timeline-item:nth-child(odd),
 	.timeline-item:nth-child(even){
-		padding-left: 37px;
+		padding-left: 20px;
+    width: 340px;
 	}
 	.timeline-dot{
 		left:0;
@@ -1916,7 +1945,7 @@ h1::before{
 
 @media(max-width: 420px){
   .timeline{
-    margin-top: 150px;
+    margin-top: 370px;
   }
 }
 
@@ -2128,6 +2157,45 @@ footer{
     .footer-info{
         flex-direction: column;
     }
+
+
+    
+.social-media{
+  margin-bottom: 30px;
+}
+
+/* 
+.link{
+  opacity: 0;
+} */
+
+.footer-width {
+  margin-top: 40px;
+}
+
+
+.link ul{
+  display: flex;
+}
+
+.link ul li a{
+  padding: 5px;
+}
+
+
+.social-media ul li a{
+  font-size: 1.8rem;
+  align-self: center;
+}
+
+.contact{
+  margin-top: -1500px;
+}
+
+
+.footer-height{
+  margin-left: 20px;
+}
 
 
 }
