@@ -1124,7 +1124,7 @@ ul li:nth-child(8){
 
   .box__small{
     width: 100px;
-    height: 70px;
+    height: 75px;
     padding: .75rem 0;
     margin-bottom: .625rem;
   }
@@ -1367,7 +1367,7 @@ ul li:nth-child(8){
         color: #fff;
     }
 
-    .about{
+    #about{
         margin-top: 100px;
     }
 
@@ -1617,7 +1617,7 @@ ul li:nth-child(8){
     
     
     
-    .events{
+    #events{
         margin-top: -120px;
     }
     
@@ -1654,7 +1654,7 @@ ul li:nth-child(8){
     }
     
     .car-2{
-        background-image: url('images/main\ poster.jpg');
+        background-image: url('images/OTHER\ EXCITING\ PRIZES\ WORTH\ -40K-min.png');
     }
     
     .car-3{
@@ -1725,7 +1725,7 @@ ul li:nth-child(8){
 
 
 
-    .works{
+    #works{
       margin-top: 180px;
     }
       
@@ -1947,7 +1947,7 @@ ul li:nth-child(8){
 
 
 
-.timeline{
+#timeline{
   margin-top: 15px;
 }
 
@@ -2046,7 +2046,7 @@ ul li:nth-child(8){
 
 
 @media(max-width: 420px){
-  .timeline{
+  #timeline{
     margin-top: 370px;
   }
 }
